@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Search Puzzle | Balkrishna Enterprise</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.7;
+      color: #333;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      padding: 40px;
+    }
+    .header { text-align: center; margin-bottom: 10px; }
+    .logo { font-size: 64px; margin-bottom: 10px; }
+    h1 { color: #1a1a2e; font-size: 32px; margin-bottom: 5px; }
+    .company { color: #666; font-size: 14px; margin-bottom: 30px; }
+    .tagline { text-align: center; color: #555; font-size: 16px; margin: 20px 0 35px; }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-bottom: 35px;
+    }
+    .feature {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 18px 10px;
+      text-align: center;
+    }
+    .feature .emoji { font-size: 28px; display: block; margin-bottom: 8px; }
+    .feature .label { font-size: 12px; color: #555; font-weight: 600; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+    .card {
+      display: block;
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 22px 15px;
+      text-align: center;
+      text-decoration: none;
+      color: #333;
+      transition: transform 0.15s, box-shadow 0.15s;
+      border: 1px solid #eee;
+    }
+    .card:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
+    .card .emoji { font-size: 32px; display: block; margin-bottom: 10px; }
+    .card .title { font-weight: 700; font-size: 15px; color: #1a1a2e; }
+    .contact-box {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 25px;
+      border-radius: 12px;
+      margin-top: 30px;
+      text-align: center;
+    }
+    .contact-box h3 { color: white; margin-bottom: 10px; }
+    .contact-box a { color: #ffd700; text-decoration: none; font-weight: bold; }
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+      color: #888;
+      font-size: 12px;
+    }
+    @media (max-width: 600px) {
+      .container { padding: 25px; }
+      h1 { font-size: 24px; }
+      .features, .cards { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">🔍</div>
+      <h1>Word Search Puzzle</h1>
+      <div class="company">by Balkrishna Enterprise</div>
+    </div>
+
+    <p class="tagline">A cozy word-search game with 50 hand-crafted levels, unlimited Endless Mode, and 10 topics to explore — pick a difficulty and keep playing.</p>
+
+    <div class="features">
+      <div class="feature"><span class="emoji">🧩</span><span class="label">50 Levels</span></div>
+      <div class="feature"><span class="emoji">♾️</span><span class="label">Endless Mode</span></div>
+      <div class="feature"><span class="emoji">🎯</span><span class="label">10 Topics</span></div>
+    </div>
+
+    <div class="cards">
+      <a class="card" href="privacy-policy.html">
+        <span class="emoji">🔒</span>
+        <span class="title">Privacy Policy</span>
+      </a>
+      <a class="card" href="terms-of-service.html">
+        <span class="emoji">📜</span>
+        <span class="title">Terms of Service</span>
+      </a>
+      <a class="card" href="data-deletion.html">
+        <span class="emoji">🗑️</span>
+        <span class="title">Delete My Data</span>
+      </a>
+    </div>
+
+    <div class="contact-box">
+      <h3>📧 Contact Us</h3>
+      <p>Questions, feedback, or support requests:</p>
+      <p><a href="mailto:balkrishnagames@gmail.com">balkrishnagames@gmail.com</a></p>
+    </div>
+
+    <div class="footer">
+      <p>© 2026 Balkrishna Enterprise. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
